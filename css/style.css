@@ -1,0 +1,231 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.flex {
+	display: flex;
+}
+
+.h-15vh {
+	height: 15vh;
+}
+.h-30vh {
+	height: 30vh;
+}
+.h-50vh {
+	height: 50vh;
+}
+.h-65vh {
+	height: 65vh;
+}
+.h-80vh {
+	height: 80vh;
+}
+.h-120vh {
+	height: 120vh;
+}
+.h-150vh {
+	height: 150vh;
+}
+.productSection {
+	background-color: #e6e6fa;
+}
+.productSection2 {
+	background-color: rgb(255, 254, 246);
+}
+.productSection3 {
+	background-color: #e6e6fa;
+}
+.productDiv {
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 100%;
+}
+.productTitle {
+	font-size: 2rem;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0px;
+}
+
+.mainTitle {
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+.header {
+	background-image: url("../slike/slikaHeader.png"),
+		radial-gradient(#a8c0ff 2%, rgb(255, 254, 246) 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 0.6s ease;
+}
+.header:hover {
+	background-image: radial-gradient(#a8c0ff 0%, rgb(255, 254, 246) 100%);
+}
+.title {
+	color: rgb(43, 43, 43);
+	font-size: 4rem;
+	transition: 0.6s ease;
+}
+.title:hover {
+	color: #a8c0ff;
+	cursor: pointer;
+}
+.button {
+	font-size: larger;
+	margin-top: 30px;
+	padding: 5px;
+	width: 140px;
+	border-radius: 50px;
+	display: block;
+	border: 0.5px solid #a8c0ff;
+	color: white;
+	background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+	transition: 0.6s ease;
+}
+.button:hover {
+	cursor: pointer;
+	background: transparent;
+	color: #a8c0ff;
+	border: 0.5px solid #a8c0ff;
+}
+.fontBricolage {
+	font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.fontKanit {
+	font-family: "Kanit", sans-serif;
+}
+.cardShadow {
+	transition: 0.6s ease;
+}
+.cardShadow:hover {
+	cursor: pointer;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000,
+		5px 5px 15px 5px rgba(0, 0, 0, 0);
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.button2 {
+	font-size: larger;
+	padding: 15px;
+	border-radius: 50px;
+	border: 0.5px solid;
+	color: rgb(22, 22, 22);
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+	transition: 0.6s ease;
+}
+.button2:hover {
+	background-color: transparent;
+	border: 0.5px solid black;
+}
+.button2Div {
+	justify-content: center;
+	align-items: center;
+	margin-top: 35px;
+	width: 100%;
+}
+
+.divStory {
+	height: 350px;
+}
+
+.productSection3 {
+	background-color: #e6e6fa;
+}
+.productSection3Icons {
+	width: 100%;
+	height: 40vh;
+	background-color: #e6e6fa;
+}
+.iconRadius {
+	border-radius: 50px;
+	width: 8vh;
+	height: 8vh;
+	background: white;
+}
+.socialLinks,
+a {
+	text-decoration: none;
+	color: black;
+}
+.footer {
+	background-color: #ffffff;
+}
+.h-Section3 {
+	height: 1000px;
+}
+.h-Section2 {
+	height: 1200px;
+}
+.accessories {
+	background-image: url("../slike/slika8.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.storage {
+	background-image: url("../slike/slika7.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.bags {
+	background-image: url("../slike/slika6.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.absoluteStory {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+}
+.absoluteBlog {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+}
+.divStory {
+	position: relative;
+}
+.divBlog {
+	position: relative;
+}
+.divStory .dviBlog,
+img {
+	width: 100%;
+	transition: 0.3s ease;
+}
+.divStory img:hover {
+	width: 90%;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000,
+		5px 5px 15px 5px rgba(0, 0, 0, 0);
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.divBlog img:hover {
+	width: 90%;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000,
+		5px 5px 15px 5px rgba(0, 0, 0, 0);
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+body {
+	background-color: rgb(255, 254, 246);
+}
+.resposiveIcons {
+	justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+	.resposiveIcons {
+		justify-content: center;
+	}
+}
